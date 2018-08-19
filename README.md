@@ -14,6 +14,8 @@ Step 2 – Make Our Container Image
 Build the docker image locally with: sudo docker build -t flask-app .
 Run this command to run your Docker image locally sudo docker run -p 9090:80 flask-app 
 Open up a web browser and enter “localhost:9090”into your web browser’s URL bar you’ll see the site running locally in our new container image. 
+
+
 Step 3 – Send our container up to AWS
 
 Now we’re going to send our newly created and tested container up to AWS.
